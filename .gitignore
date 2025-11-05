@@ -1,4 +1,37 @@
+# =============================================================
+# 🧹 CSIRO Image2Biomass — Git Ignore Rules
+# =============================================================
+
+# --- Local data and outputs ---
 input_local/
 output/
+
+# --- Python build & cache files ---
 __pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Notebook checkpoints & temp files ---
 *.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Environment & package management ---
+.env
+.venv/
+venv/
+*.log
+
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- IDE / Editor metadata ---
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
